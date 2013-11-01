@@ -1,0 +1,1 @@
+<h1>Welcome <?= SITE_NAME ?> </h1>
