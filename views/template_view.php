@@ -26,11 +26,11 @@
 					</li>
 					<?php if (Session::get('id_user')) : ?>
 						<li>
-							<a href="<?= URL ?>/account/logout">Login</a>
+							<a href="<?= URL ?>/account/logout">Logout</a>
 						</li>
 					<?php else : ?>
 						<li>
-							<a href="<?= URL ?>/account/login">Logout</a>
+							<a href="<?= URL ?>/account/login">Login</a>
 						</li>
 						<li>
 							<a href="<?= URL ?>/account/registration">Registration</a>
